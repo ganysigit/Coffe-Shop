@@ -1,0 +1,7 @@
+TUTORIAL SETUP TAILWIND CSS TERBARU VERSI ZEN
+
+1. npm init
+2. npm install tailwindcss@latest postcss@latest autoprefixer@latest
+3. buat folder src/ isi dengan file CSS
+4. di file package.json dibawah script tambahin :
+"build:css": "tailwindcss build src/style.css -o dist/style.css",
